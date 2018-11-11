@@ -1,3 +1,11 @@
-h1 {
-    color:red;
+body {
+    background-color: #f9f8eb;
+}
+
+img {
+    border-radius: 100%;
+    height:25%;
+    width:25%;
+    display: block;
+    margin: 5% auto 0 auto;
 }
