@@ -1,5 +1,6 @@
 
 body {
+    color:#40514E;
     margin:0px;
     text-align:center;
     font-family: 'Merriweather', serif;
@@ -9,26 +10,54 @@ body {
 h1 {
     margin-top: 0px;
     font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin:50px auto 0 auto;
+    color: #a5aeff;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    font-size:2.5rem;
+    color: #a5aeff;
+    padding-bottom:15px;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color:#6b76ff;
+}
+
+#welcome {
+    font-weight:normal;
+}
+
+a {
+    color:#6b76ff;
+    font-family:'Montserrat', sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+}
+a:hover {
+    color:#4651f3;
 }
 
 .top {
-    background-color: #feffe0;
     position:relative;
     padding-top:100px;
 }
 
-.middle {
+.bottom {
+    background-color:#a5aeff;
+    padding:45px 0 25px;
 }
 
-.bottom {
+.middle {
+    margin:75px;
+}
+
+.skill-row {
+    width:50%;
+    margin:100px auto 100px auto;
 }
 
 .bottomcloud {
@@ -42,22 +71,75 @@ h3 {
     top:50px;
     
 }
+.web-dev-image {
+    width:40%;
+    float:left;
+    margin-right:30px;
+}
 
-.languagesImage {
-    height:18%;
-    width:18%;
+.mobile-dev-image {
+    float:right;
+    margin-right:30px;
+    width:50%;
 }
 
 .profile {
-    margin-left:8%;
-    margin-right:8%;
+    width:45%;
+    margin:auto;
 }
-.contact {
-    margin-left:8%;
-    margin-right:8%;
+.contact-info {
+    width:49%;
+    margin:auto;
+} 
+#contact-description {
+      margin-bottom:70px;
 }
-
+#copyright {
+    color:#FFFAF0;
+    margin-top:30px;
+    margin-bottom: 0;
+    font-size:0.8rem;
+}
 .skills {
     margin-left:8%;
     margin-right:8%;
 }
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border:dotted #D8D8D8 8px;
+    border-bottom:none;
+    width:5%;
+    margin:75px auto;
+}
+
+  .butn {
+    background: #a5aeff;
+    background-image: -webkit-linear-gradient(top, #a5aeff, #6b76ff);
+    background-image: -moz-linear-gradient(top, #a5aeff, #6b76ff);
+    background-image: -ms-linear-gradient(top, #a5aeff, #6b76ff);
+    background-image: -o-linear-gradient(top, #a5aeff, #6b76ff);
+    background-image: linear-gradient(to bottom, #a5aeff, #6b76ff);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .butn:hover {
+    background: #c8e4fe;
+    background-image: -webkit-linear-gradient(top, #9ed2ff, #8c97fa);
+    background-image: -moz-linear-gradient(top, #9ed2ff, #8c97fa);
+    background-image: -ms-linear-gradient(top, #9ed2ff, #8c97fa);
+    background-image: -o-linear-gradient(top, #9ed2ff, #8c97fa);
+    background-image: linear-gradient(to bottom, #9ed2ff, #8c97fa);
+    text-decoration: none;
+  }
+
