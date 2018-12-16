@@ -4,7 +4,7 @@ body {
     margin:0px;
     text-align:center;
     font-family: 'Merriweather', serif;
-    background-color:#feffe0;
+    background-color:#eeeeee;
 
 }
 h1 {
@@ -52,7 +52,8 @@ a:hover {
 }
 
 .middle {
-    margin:75px;
+    margin-top:75px;
+    background-color:#feffe0;
 }
 
 .skill-row {
@@ -62,13 +63,15 @@ a:hover {
 
 .bottomcloud {
     position:absolute;
-    left:300px;
+    left:275px;
     bottom:300px;
+    width:10%;
 }
 .topcloud {
     position:absolute;
-    right: 300px;
-    top:50px;
+    right: 250px;
+    top:75px;
+    width:10%;
     
 }
 .web-dev-image {
@@ -83,12 +86,17 @@ a:hover {
     width:50%;
 }
 
+.laptop-img {
+    margin-top:50px;
+    height:50%;
+}
+
 .profile {
     width:45%;
     margin:auto;
 }
 .contact-info {
-    width:49%;
+    width:50%;
     margin:auto;
 } 
 #contact-description {
